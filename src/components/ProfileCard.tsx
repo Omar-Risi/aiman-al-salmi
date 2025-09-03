@@ -7,7 +7,7 @@ export function ProfileCard() {
       {/* Profile Image */}
       <div className="flex justify-center mb-6">
         <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-800">
-          <img src="/ayman-al-salmi.png" alt="Aiman Mohammed Al Salmi" className="w-full h-full object-cover shadow-sm " />
+          <img src="/aiman-al-salmi.jpg" alt="Aiman Mohammed Al Salmi" className="w-full h-full object-cover shadow-sm " />
         </div>
       </div>
 
