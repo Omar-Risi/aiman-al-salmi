@@ -1,5 +1,5 @@
 import { LinkButton } from "./LinkButton"
-import { Mail, Youtube, Instagram, Linkedin } from "lucide-react"
+import { Mail, Youtube, Instagram, Linkedin, Phone } from "lucide-react"
 
 export function ProfileCard() {
   return (
@@ -25,6 +25,16 @@ export function ProfileCard() {
           href="mailto:aimanalsalmi@hotmail.com"
           text="aimanalsalmi@hotmail.com"
           icon={<Mail />}
+        />
+        <LinkButton
+          href="tel:+96892111093"
+          text="Call 92111093"
+          icon={<Phone />}
+        />
+        <LinkButton
+          href="https://wa.me/+96892111093"
+          text="Whatsapp"
+          icon={<Phone className="border-2 p-1 rounded-full " />}
         />
         <LinkButton
           href="https://www.youtube.com/@aimanalsalmi"
