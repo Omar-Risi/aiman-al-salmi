@@ -12,7 +12,7 @@ export function ProfileCard() {
       </div>
 
       {/* Name */}
-      <h1 className="text-xl font-semibold text-gray-900 text-center mb-8">Ayman Mohammed Al Salmi</h1>
+      <h1 className="text-xl font-semibold text-gray-900 text-center">Ayman Mohammed Al Salmi</h1>
       <p className="text-center text-gray-500 max-w-64">
         Public relations and Stakeholder Engagement,
         Entrepreneurship and Business Plans, Communication and Media, Engineering and Sciences, Big Data and Data Science,
@@ -20,10 +20,10 @@ export function ProfileCard() {
       </p>
 
       {/* Contact Buttons */}
-      <div className="space-y-3 mt-4 w-full">
+      <div className="space-y-3 mt-8 w-full">
         <a
           href="/contact.vcf"
-          className="flex justify-center items-center gap-3  p-3 bg-amber-400 hover:bg-amber-300 transition-colors rounded-full w-full text-white text-sm font-medium"
+          className="flex justify-center items-center gap-3  p-3 bg-amber-400 hover:bg-amber-300 transition-colors rounded-lg w-full text-white text-sm font-medium"
           download="OmarReesi.vcf"
         >
           <div className="text-white">
