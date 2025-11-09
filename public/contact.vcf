@@ -1,8 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Al Salmi;Aiman;;;
-FN:Ayman Al Salmi
+PHOTO;VALUE=URI:https://aiman-al-salmi.vercel.app/images/aiman-al-salmi.jpg
+N:Alsalmi;Aiman;;;
+FN:Aiman Mohammed Al Salmi
 TEL;TYPE=CELL:+96892111093
-EMAIL:aimanalsalmi@hotmail.com
+EMAIL;TYPE=INTERNET,WORK:aimanalsalmi@gmail.com
+EMAIL;TYPE=INTERNET,HOME:aimanalsalmi@hotmail.com
+URL;TYPE=WORK:https://www.linkedin.com/in/aiman-mohammed-alsalmi-3883ba24b
+URL;TYPE=INSTAGRAM:https://www.instagram.com/aiman_alsalmi
+URL;TYPE=YOUTUBE:https://www.youtube.com/@aimanalsalmi
+NOTE:WhatsApp: https://wa.me/+96892111093
 END:VCARD
 
