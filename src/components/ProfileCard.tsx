@@ -3,7 +3,7 @@ import { Mail, Youtube, Instagram, Linkedin, Phone, Download, Smartphone } from 
 
 export function ProfileCard() {
   return (
-    <div className="flex flex-col items-center bg-white rounded-2xl shadow-lg p-8">
+    <div className="flex flex-col items-center p-8">
       {/* Profile Image */}
       <div className="flex justify-center mb-6">
         <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-800">
