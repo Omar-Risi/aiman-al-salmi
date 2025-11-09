@@ -1,5 +1,5 @@
 import { LinkButton } from "./LinkButton"
-import { Mail, Youtube, Instagram, Linkedin, Phone } from "lucide-react"
+import { Mail, Youtube, Instagram, Linkedin, Phone, Download } from "lucide-react"
 
 export function ProfileCard() {
   return (
@@ -16,6 +16,16 @@ export function ProfileCard() {
 
       {/* Contact Buttons */}
       <div className="space-y-3">
+        <a
+          href="/contact.vcf"
+          className="flex items-center gap-3 w-full p-3 bg-gray-100 hover:bg-gray-200 transition-colors rounded-lg text-gray-800 text-sm font-medium"
+          download="OmarReesi.vcf"
+        >
+          <div className="text-gray-600">
+            <Download />
+          </div>
+          <span> Save contact </span>
+        </a>
         <LinkButton
           href="mailto:aimanalsalmi@gmail.com"
           text="aimanalsalmi@gmail.com"
